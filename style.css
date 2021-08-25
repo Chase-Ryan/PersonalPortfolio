@@ -3,10 +3,11 @@
 }
 
 body{
-  background-color: rgb(226, 238, 250);
+  background-color: rgb(216, 233, 250);
   margin: 30px;
 }
 
+/* for header background and text */
 header{
   background-image: url("images/blue-background.jpg");
   background-size: cover;
@@ -15,6 +16,7 @@ header{
   text-align: center;
 }
 
+/* for nav section and future updates*/
 nav{
   text-align: right;
   font-size: 20px;
@@ -22,27 +24,34 @@ nav{
   margin: 10px;
 }
 
-
+/* for double lined border in header */
 .double{
   border: 5px double black;
   padding: 5px;
   margin-top: 0px;
 }
 
+/* for future single lined border */
 .single{
   border: 1px solid black;
 }
 
+/* text size and font for paragraph and list text */
 main,li p{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 22px
+  font-size: 22px;
+  margin: 100px;
 }
 
+
+
+/* text size and font for contact section */
 footer{
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* link styling */
 a:link    { color: #1851F0;}
 a:visited { color: #984EF0;}
 a:hover   { color: #4CF035;}
